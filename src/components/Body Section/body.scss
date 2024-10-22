@@ -1,0 +1,33 @@
+.mainContent{
+    width: 82%;
+    height: 100%;
+    padding: 2rem;
+    overflow: auto;
+
+    .bottom{
+        margin-top: 2rem;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+}
+
+
+//   MEDIA QUERIES /////////////////////
+
+
+@media screen and (max-width:918px){
+    .bottom{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:490px){
+.listingSection{
+    .sellers{
+        flex-direction: column;
+       .card{
+        flex-direction: column;
+       }
+
+    }
+}
+}
